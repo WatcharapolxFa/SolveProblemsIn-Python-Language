@@ -1,0 +1,1 @@
+print(str(i)+" <- " + str(len(self.items)))
