@@ -15,8 +15,7 @@ class TreeNode(object):
 # AVL Tree คือ binary search tree ที่มีเงื่อนไขของความสมดุล (Balance Condition) โดยเงื่อนไขดังกล่าวคือ
 # Condition: ในทุกๆ โหนด ความสูงของ subtree ทางด้ายซ้ายและด้านขวาต่างกันไม่เกิน 1  
 class AVL_Tree(object): 
-
-
+    
     # Adding node
     def insert(self, root, key):
         if not root:  # ถ้าค่า root ที่ส่งมาเป็น None ให้สร้าง node ใหม่ที่ใส่ค่า key เข้าไปเลย
